@@ -37,6 +37,16 @@ ul {
   padding: 1em;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  padding: .5em 1.5em;
+  border-radius: .5em;
+  font-size: 1.1em;
+}
+
+
 
 /*******************************************************************************************
                                       HEADER
@@ -87,15 +97,11 @@ ul {
   color: var(--gray-color);
 }
 
-.btn {
-  display: inline-block;
-  margin-top: 1em;
-  margin-bottom: 1.5em;
-  padding: .5em 1em;
-  border-radius: .5em;
+.hero--btn {
   color: var(--white-color);
   background-color: var(--blue-color);
 }
+
 
 .hero--image {
   text-align: center;
@@ -165,4 +171,34 @@ h2 {
   text-align: right;
   color: var(--dark-color);
   font-weight: 700;
+}
+
+
+
+/*******************************************************************************************
+                                  CTA Section 
+*******************************************************************************************/
+.cta {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.cta-container {
+  background-color: var(--blue-color);
+  padding: 2em;
+}
+
+.cta--heading {
+  color: var(--white-color);
+  font-size: 1.6em;
+  margin-bottom: .5em;
+}
+
+.cta--p {
+  color: var(--gray-color);
+}
+
+.cta--btn {
+  background-color: var(--dark-color);
+  color: var(--white-color);
 }
