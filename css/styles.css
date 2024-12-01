@@ -72,6 +72,8 @@ ul {
 .hero {
   background-color: var(--dark-color);
   text-align: center;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
 }
 
 .main-heading {
@@ -108,4 +110,29 @@ ul {
 /*******************************************************************************************
                                   Features Section 
 *******************************************************************************************/
+h2 {
+  text-align: center;
+  color: var(--dark-color);
+}
 
+.features-illustration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.features--image {
+  width: 15em;
+  height: 10em;
+  margin: 2em auto 1em;
+  border: 2px solid var(--blue-color);
+  border-radius: .8em;
+}
+
+.features-illustration p {
+  font-size: 1.2em;
+  text-align: center;
+}
